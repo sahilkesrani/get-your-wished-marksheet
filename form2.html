@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mark Sheet</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 5px;
+      }
+      
+    </style>
+  </head>
+  <body>
+    
+    <h2 style="align-self: center;" >Enter Your Details:</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name"><br><br>
+      <label for="rollno">Roll No:</label>
+      <input type="text" id="rollno" name="rollno"><br><br>
+      <label for="maths">Maths:</label>
+      <input type="text" id="maths" name="maths"><br><br>
+      <label for="science">Science:</label>
+      <input type="text" id="science" name="science"><br><br>
+      <label for="english">English:</label>
+      <input type="text" id="english" name="english"><br><br>
+      <input type="button" value="Submit" onclick="showMarksheet()">
+    </form>
+    <br>
+    <div id="marksheet"></div>
+    <script src="marksheet.js"></script>
+  </body>
+</html>
+
+
+  
